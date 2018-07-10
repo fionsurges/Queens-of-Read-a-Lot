@@ -1,0 +1,90 @@
+/* Global */
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  background-color: rgba(226, 223, 212, 0.685);
+}
+
+.ui.header:last-child {
+  margin: 3vh;
+}
+
+/* Books */
+
+#books {
+  float: left;
+  width: 70%;
+  margin: 3vh 2vw;
+}
+
+
+
+#book-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 73vh;
+  overflow: auto;
+  margin-top: 2vh;
+
+}
+
+#book-card {
+  margin-bottom: 2vh;
+  margin-right: 1vw;
+  box-shadow: 12px 14px 20px 0px;
+}
+
+/* Reviews */
+
+#reviews {
+  float: right;
+  width: 30%;
+  margin-top: 3vh;
+}
+
+#reviews-header .ui.button {
+  width: 292px;
+  box-shadow: 4px 6px 20px 0px;
+
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+}
+
+#review-cards {
+  margin-top: 2vh;
+  height: 70vh;
+  overflow: scroll;
+}
+
+#review-cards .ui.card {
+  box-shadow: 12px 14px 20px 0px;
+} 
+
+#reviews-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Reviews Form */
+.ui.form .field label {
+  color: white;
+  font-size: 1.3em;
+}
+
+.ui.form .inline.fields label {
+  color: white;
+  font-size: 1.3em;
+}
