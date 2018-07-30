@@ -1,12 +1,13 @@
 # Queens of Read-A-Lot
-
-![Queens of Read-A-Lot](https://media.giphy.com/media/n4aqBBXQW6DHcVdxcu/200w_d.gif)
-
 A full stack virtual book club application that displays suggested books and reviews, allows users to add, edit, and delete books/reviews.
+
 ## Client Environment Commands
 - 'npm install'
 - Development: 'npm start'
 - ProductionL: 'npm run build'
+
+## Add a Review
+![Add Review](https://media.giphy.com/media/n4aqBBXQW6DHcVdxcu/giphy.gif)
 
 ## Technologies Used
 HTML/CSS, React, Cypress, Knex, Express, Heroku, PostgreSQL, Firebase, JavaScript
