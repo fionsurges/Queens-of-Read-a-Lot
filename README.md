@@ -1,6 +1,6 @@
 # Queens of Read-A-Lot
 
-!(https://ibb.co/kptTto)
+![Queens of Read-A-Lot](https://ibb.co/kptTto)
 
 A full stack virtual book club application that displays suggested books and reviews, allows users to add, edit, and delete books/reviews.
 ## Client Environment Commands
